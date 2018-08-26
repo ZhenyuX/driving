@@ -6,3 +6,9 @@ if country == 'Taiwan' or 'taiwan' or 'TAIWAN' or 'Tai Wan' or 'tai wan' or 'TAI
 		print('allow to take drive test')
 	else:
 		print('not allow to take drive test')
+elif country == 'USA' or 'United States' or 'America':
+	if age >= 16:
+		print('allow to take driver test')
+	else:
+		print('not allow to take drive test')
+		
